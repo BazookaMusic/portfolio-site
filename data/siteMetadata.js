@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Zimosis',
   author: 'Sotiris Dragonas',
   headerTitle: 'Zimosis',
-  description: "The riveting tale of a crab's journey through computer science and the human condition.",
+  description:
+    "The riveting tale of a crab's journey through computer science and the human condition.",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

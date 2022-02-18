@@ -34,7 +34,7 @@ static void Main()
 
 ## Composability
 
-Our new function is generic and can be composed with itself! 
+Our new function is generic and can be composed with itself!
 
 ```C#
 static void Main()
@@ -127,14 +127,12 @@ static void Main()
 }
 ```
 
-Now the type is a complex type with `2^64` references to the int type. To compile this program, the compiler will need to create the string representation of these types and replace the `var` keyword with the correct types. See this [sharplab snippet](https://sharplab.io/#v2:CYLg1APgAgTAjAWAFBQMwAJboMLoN7LpGYZQAs6AsgBQCU+hxTA9M+gJYB2ALo00QDcAhgCd0AgAzoAvOgkBuZH36t01LtwA0HHrWVNhYgXBnoA4iID2Ad2qTaipPuKrq6nto21t7rTu60ekj8xIbiMKYWNnZwDkrBIeiubhqeuj6pXvQ+vmkBGR5ZQYniouIYslG2AjBxTgkhqgB0Lc6CZQIUlVbVqHUlYQIArJE9dmT9iYMAbKPRw5MhgwDsc9XTi/yDABxrdsubBh0AnHsC24ehHXBS3fPHl+1GcCZ31TePpc8RbzGxjgNrhVzGNjLUAcQAL7KZRoTBwWbUAAqmiR9CqAB4kQA+ZEcbgAUwAtsViAQGvwoKt1ISiZ5aZtoUhIUA==) to see what this looks like in practice. 
+Now the type is a complex type with `2^64` references to the int type. To compile this program, the compiler will need to create the string representation of these types and replace the `var` keyword with the correct types. See this [sharplab snippet](https://sharplab.io/#v2:CYLg1APgAgTAjAWAFBQMwAJboMLoN7LpGYZQAs6AsgBQCU+hxTA9M+gJYB2ALo00QDcAhgCd0AgAzoAvOgkBuZH36t01LtwA0HHrWVNhYgXBnoA4iID2Ad2qTaipPuKrq6nto21t7rTu60ekj8xIbiMKYWNnZwDkrBIeiubhqeuj6pXvQ+vmkBGR5ZQYniouIYslG2AjBxTgkhqgB0Lc6CZQIUlVbVqHUlYQIArJE9dmT9iYMAbKPRw5MhgwDsc9XTi/yDABxrdsubBh0AnHsC24ehHXBS3fPHl+1GcCZ31TePpc8RbzGxjgNrhVzGNjLUAcQAL7KZRoTBwWbUAAqmiR9CqAB4kQA+ZEcbgAUwAtsViAQGvwoKt1ISiZ5aZtoUhIUA==) to see what this looks like in practice.
 
 ## Time Complexity Lower Bound
+
 Seeing as the size of the types grow exponentially with the amount of lines in our specially constructed program, we have found an instance of the problem that cannot be solved in polynomial time in regards to the program size.
 
 ## Closing Remarks
 
-People don't usually write programs this way. They try to create data structures and types which will fit in memory and make their code perform well. The algorithm used for type inference in C# is fast enough for most use cases, where people don't try to bring the compiler to its knees by writing adversarial programs. 
-
-
-
+People don't usually write programs this way. They try to create data structures and types which will fit in memory and make their code perform well. The algorithm used for type inference in C# is fast enough for most use cases, where people don't try to bring the compiler to its knees by writing adversarial programs.
