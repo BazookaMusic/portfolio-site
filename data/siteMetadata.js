@@ -6,8 +6,8 @@ const siteMetadata = {
     "The riveting tale of a crab's journey through computer science and the human condition.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://sotirisdragonas.netlify.app/',
+  siteRepo: 'https://github.com/BazookaMusic/portfolio-site',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
