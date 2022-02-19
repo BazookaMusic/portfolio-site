@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Zimosis',
+  title: 'Sotiris Dragonas',
   author: 'Sotiris Dragonas',
-  headerTitle: 'Zimosis',
+  headerTitle: 'Sotiris',
   description:
     "The riveting tale of a crab's journey through computer science and the human condition.",
   language: 'en-us',
@@ -47,7 +47,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`
